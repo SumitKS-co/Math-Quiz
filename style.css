@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    height: 100%;
+    background-color: #D9ED92;
+    font-size: x-large;
+    min-width: 332px;
+}
+
+h1 {
+    color:rgb(7, 0, 103);
+}
+
+
+.main-box {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 400px;
+    width: 300px;
+    background-color: #52B69A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+#input{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 25px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.btns{
+    color:rgb(0, 0, 0);
+    height: 30px;
+    font-size: 15px;
+    background-color: greenyellow;
+    border-radius: 50px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btns:hover{
+    background-color: rgb(165, 206, 105);
+}
+
+.btn{
+    color:rgb(0, 0, 0);
+    height: 30px;
+    font-size: 15px;
+    background-color: rgb(251, 104, 104);
+    border-radius: 50px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(185, 75, 75);
+}
+
+.quiz-form{
+    flex-direction: column;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
